@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import ipdb
 
 from faker import Faker
 import random
@@ -15,5 +16,4 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-
-    import ipdb; ipdb.set_trace()
+ipdb.set_trace()
